@@ -7,7 +7,7 @@ name: Mark stale issues and pull requests and close after no response
 
 on:
   schedule:
-  - cron: '40 21,00 * * *'
+  - cron: '30 21,00,03 * * *'
 
 jobs:
   stale:
